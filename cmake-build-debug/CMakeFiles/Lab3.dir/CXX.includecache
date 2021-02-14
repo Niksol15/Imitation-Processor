@@ -6,19 +6,35 @@
 
 #IncludeRegexTransform: 
 
-D:/Project/ComputingArchitecture/Lab3/main.cpp
-iostream
+D:/Project/ComputingArchitecture/Lab3/Processor.cpp
+sstream
 -
-fstream
--
-array
+Processor.h
+D:/Project/ComputingArchitecture/Lab3/Processor.h
+
+D:/Project/ComputingArchitecture/Lab3/Processor.h
+Register.h
+D:/Project/ComputingArchitecture/Lab3/Register.h
+
+D:/Project/ComputingArchitecture/Lab3/Register.cpp
+sstream
 -
 cmath
 -
-utility
+Register.h
+D:/Project/ComputingArchitecture/Lab3/Register.h
+
+D:/Project/ComputingArchitecture/Lab3/Register.h
+iostream
 -
 string
 -
-sstream
+array
+-
+
+D:/Project/ComputingArchitecture/Lab3/main.cpp
+Processor.h
+D:/Project/ComputingArchitecture/Lab3/Processor.h
+fstream
 -
 

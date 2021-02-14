@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Project/ComputingArchitecture/Lab3/Processor.cpp" "D:/Project/ComputingArchitecture/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/Processor.cpp.obj"
+  "D:/Project/ComputingArchitecture/Lab3/Register.cpp" "D:/Project/ComputingArchitecture/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/Register.cpp.obj"
   "D:/Project/ComputingArchitecture/Lab3/main.cpp" "D:/Project/ComputingArchitecture/Lab3/cmake-build-debug/CMakeFiles/Lab3.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -142,6 +142,60 @@ Lab3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/build
 .PHONY : Lab3/fast
 
+Processor.obj: Processor.cpp.obj
+
+.PHONY : Processor.obj
+
+# target to build an object file
+Processor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Processor.cpp.obj
+.PHONY : Processor.cpp.obj
+
+Processor.i: Processor.cpp.i
+
+.PHONY : Processor.i
+
+# target to preprocess a source file
+Processor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Processor.cpp.i
+.PHONY : Processor.cpp.i
+
+Processor.s: Processor.cpp.s
+
+.PHONY : Processor.s
+
+# target to generate assembly for a file
+Processor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Processor.cpp.s
+.PHONY : Processor.cpp.s
+
+Register.obj: Register.cpp.obj
+
+.PHONY : Register.obj
+
+# target to build an object file
+Register.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Register.cpp.obj
+.PHONY : Register.cpp.obj
+
+Register.i: Register.cpp.i
+
+.PHONY : Register.i
+
+# target to preprocess a source file
+Register.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Register.cpp.i
+.PHONY : Register.cpp.i
+
+Register.s: Register.cpp.s
+
+.PHONY : Register.s
+
+# target to generate assembly for a file
+Register.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab3.dir\build.make CMakeFiles/Lab3.dir/Register.cpp.s
+.PHONY : Register.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +232,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Lab3
+	@echo ... Processor.obj
+	@echo ... Processor.i
+	@echo ... Processor.s
+	@echo ... Register.obj
+	@echo ... Register.i
+	@echo ... Register.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
